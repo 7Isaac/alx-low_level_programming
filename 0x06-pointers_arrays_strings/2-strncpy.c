@@ -1,8 +1,8 @@
-#include "main"
+#include "main.h"
 
 /**
- * _strncpy - copys a string with n
- * @dest: copy to
+ * _strncpy - copy a string with n
+ *  @dest: copy to
  *  @src: copy from
  *  @n: number of char to be copied
  *  Return: dest
@@ -20,7 +20,6 @@ char *_strncpy(char *dest, char *src, int n)
 	while (j < n)
 	{
 		dest[j] = '\0';
-		j++;
-	}
+		dest++;
 	return (dest);
-}
+	}
