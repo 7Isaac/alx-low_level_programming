@@ -1,4 +1,4 @@
-#inclide "main.h"
+#include "main.h"
 
 /**
  * reverse_array - reverses an array of integers
@@ -16,5 +16,5 @@ void reverse_array(int *a, int n)
 		n--;
 		j = a[i];
 		a[i] = a[n];
-		a[i] = j;
+		a[n] = j;
 	}
