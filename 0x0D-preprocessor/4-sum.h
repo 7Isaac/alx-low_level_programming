@@ -1,4 +1,4 @@
-#fndef _sum_h_
+#ifndef _sum_h_
 
 #define _sum_h_
 
